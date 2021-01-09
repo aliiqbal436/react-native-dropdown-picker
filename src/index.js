@@ -398,7 +398,7 @@ class DropDownPicker extends React.Component {
                 >
 
                         {this.state.choice.icon && ! multiple && this.state.choice.icon()}
-                        <Text style={[
+                        <Text numberOfLines={1} style={[
                             { color: 'red' }, // default label color
                             this.props.labelStyle,
                             placeholderStyle, {opacity, flex: 1}, {
